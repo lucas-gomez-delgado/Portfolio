@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Lucas Gómez - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lucas Gómez - Portfolio</h1>
+        <div class="header-actions header-padding">
+            <button class="theme-toggle" id="themeToggle" aria-pressed="false" aria-label="Toggle theme">🌙</button>
+        </div>
+        <nav>
+            <a href="#sobre-mi">About me</a>
+            <a href="#proyectos">Projects</a>
+            <a href="#contacto">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre-mi">
+            <h2>About me</h2>
+            <p>I'm a video game developer with training in 2D and 3D game development.</p>
+            <p>I have worked on several personal and academic projects where I’ve learned to design and implement engaging gameplay mechanics and interactive systems, primarily using Unreal Engine 4 and, to a lesser extent, Unity.</p>
+            <p>Through these experiences, I’ve developed a strong understanding of game logic, player interaction, and the importance of creating smooth and immersive gameplay experiences.</p>
+            <p>I’m passionate about continuous learning and constantly seek to expand my technical and creative skills in game development. My goal is to keep growing professionally while contributing my creativity, problem-solving mindset, and dedication to innovative and collaborative projects.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Projects</h2>
+
+            <div class="proyecto featured">
+                <h3>3D open world</h3>
+                <p>This is a 3D open-world game where you have to complete a series of missions to advance the plot.</p>
+                <p>There are various things you can do, such as running, shooting, talking, and driving, among other things.</p>
+                <video controls width="100%">
+                    <source src="videos/proyecto11.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="proyectos-grid">
+                <div class="proyecto">
+                    <h3>Car game</h3>
+                    <p>It is a small test on a closed circuit with a manageable car.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>2.5D platform game</h3>
+                    <p>Classic ‘Super Mario’ style game with a 3D style.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Endless labyrinth</h3>
+                    <p>An infinite maze in the style of the ‘Lost Woods’ from the game The Legend of Zelda: Ocarina of Time.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Camera game</h3>
+                    <p>A brief demonstration of the different uses of cameras.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Interactive dialogues</h3>
+                    <p>A conversation with different outcomes.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Boss fight</h3>
+                    <p>A boss fight with different attacks.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto6.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>HUD implementation</h3>
+                    <p>We will add a HUD to the game with new mechanics such as stamina and health regeneration.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto7.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Long-range combat</h3>
+                    <p>Different weapons such as a rifle with a higher rate of fire and direct bullets, and a shotgun with multiple projectiles and a lower rate of fire.</p>
+                    <p>The enemy fires an auto-tracking projectile at the player.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto8.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Endless run</h3>
+                    <p>A Temple Run-style game where you advance endlessly in a randomly generated world.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto9.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="proyecto">
+                    <h3>Point and click</h3>
+                    <p>Point-and-click style game where the character moves to where you click with the mouse.</p>
+                    <video controls width="100%">
+                        <source src="videos/proyecto10.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contact</h2>
+            <p>Email: lucas.gomez.00@icloud.com</p>
+            <p>Teléfono: +34 674709303</p>
+            <p class="contact-icons">
+                <a href="mailto:lucas.gomez.00@icloud.com" class="email-btn icon-only contact-link" aria-label="Enviar correo a lucas.gomez.00@icloud.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-gomez-76329a38a" class="linkedin-btn icon-only contact-link" target="_blank" rel="noopener noreferrer" aria-label="Ir al perfil de LinkedIn de Lucas Gómez desde Contacto">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="20" height="20" aria-hidden="true" focusable="false">
+                        <path d="M34,34H0V0H34V34Z" fill="none"/>
+                        <path d="M8.5,12.5H3.9V29H8.5ZM6.2,4.9A2.6,2.6,0,1,1,3.6,7.5,2.6,2.6,0,0,1,6.2,4.9ZM30.1,20.6c0-5.6-3-8.2-6.9-8.2-3.2,0-4.6,1.8-5.4,3.1v-2.7H11.7V29h6.2V20.9c0-2.2.4-4.3,3.1-4.3,2.7,0,2.7,2.7,2.7,4.5V29H30.1Z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lucas Gómez Delgado</p>
+    </footer>
+    <script src="theme-toggle.js"></script>
+</body>
+</html>
